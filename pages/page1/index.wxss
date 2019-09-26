@@ -1,1 +1,98 @@
-/* pages/page1/index.wxss */
+.main_container {
+  display: flex;
+  height: 800rpx;
+  width: 100%;
+  background: #ccc;
+  /* flex: 1; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10rpx;
+  justify-content: center;
+  /* 正对多行，换行之后，各行之间的在垂直方向上的对其方式 */
+  /* align-content: space-around; */
+  align-items: center;
+}
+
+.main_container view {
+  /* 上 右 下 左 */
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+  height: 200rpx;
+   /* 当父容器使用align-item：stretch时候，不应该给子 设置侧轴的长度 */
+  width: 300rpx
+}
+
+.main_container view view {
+  /* margin-top: 10rpx; */
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.item_1 {
+  display: flex;
+  background: #6f9;
+  margin-top: 20rpx;
+  align-content: center;
+  flex-direction: row;
+}
+
+.item_2 {
+  display: flex;
+  flex-direction: row;
+  background: #ff0;
+}
+
+.item_3 {
+  display: flex;
+  flex-direction: row;
+  background: #f69;
+}
+
+.item_1_1 {
+  background: #808080;
+  margin-top: 20rpx;
+}
+
+.item_1_2 {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.item_1_3 {
+  background: #f99;
+  margin-top: 20rpx;
+}
+
+.item_2_1 {
+  background: #808080;
+  margin-top: 20rpx;
+}
+
+.item_2_2 {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.item_2_3 {
+  background: #f99;
+  margin-top: 20rpx;
+}
+
+.item_3_1 {
+  background: #808080;
+  margin-top: 20rpx;
+}
+
+.item_3_2 {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.item_3_3 {
+  background: #f99;
+  margin-top: 20rpx;
+}

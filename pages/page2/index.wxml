@@ -1,0 +1,19 @@
+<view class="view_main">
+<button type="primary" size="letter" bindtouchstart="btnstart" bindtouchend="btnover" bindtouchcancel="btncancel" bindtouchmove="btnmove" bindlongtap="btnlongtap">按钮</button>
+<!-- 加速度-->
+<text>加速度计</text>
+<text>x:{{datax}} </text>
+<text>y:{{datay}} </text>
+<text>z:{{dataz}} </text>
+<!-- 罗盘 -->
+<text>\n</text>
+<text>罗盘</text>
+<text>direct:{{direction}} </text>
+<!-- 陀螺仪-->
+<text>\n</text>
+<text>陀螺仪</text>
+<text>x:{{tdatax}} </text>
+<text>y:{{tdatay}} </text>
+<text>z:{{tdataz}} </text>
+
+</view>
